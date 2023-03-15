@@ -322,7 +322,7 @@ img {
   margin: 5% 1rem;
 }
 .home_section{
-  margin-bottom: 15%;
+  margin-bottom: 1vh;
 }
 
 
@@ -447,25 +447,78 @@ padding-bottom: 0%; }
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.card__img {
-  width: 40%;
-}
+
 
 .card__content {
   display: flex;
-  width: 55%;
+  width: 100%;
   flex-direction: row;
 }
 .make-rows{
   display: flex;
   flex-direction: column;
+  width: 100% ;
 }
 .projects_section{
   margin-bottom: 0%;
 }
 .card_title_container{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  width: 100%;
+}
+.card__title{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  align-content: center;
+
+}
+.card__img{
+  margin-right: 0;
+  width: 25%;
+}
+.card__content2{
+  height: 4.44vh;
+  margin-top: 7%;
+  display: flex;
+}
+.button1-project{
+  background-color: #FFF;
+  width: 15%;
+  height: 5.5vh;
+  margin-right: 5%;
+  border: 1px solid var(--first-color);
+  display: inline-block; /* Ensures the div only takes up as much space as necessary */
+  padding: 5px; /* Adds some space between the border and the icon */
+  border-radius: 20%;
+}
+.button1-project:hover{
+  cursor: pointer;
+  background-color: var(--first-color);
+    
+} 
+.button1-project:hover .project-icon {
+  color: white;
+}
+
+
+.button2-project{
+    background-color: #FFF;
+  width: 15%;
+  height: 5.5vh;
+  margin-right: 5%;
+  border: 1px solid var(--first-color);
+  display: inline-block; /* Ensures the div only takes up as much space as necessary */
+  padding: 5px; /* Adds some space between the border and the icon */
+  border-radius: 20%;
+}
+.project-icon{
+  font-size: 4vh;
+  display: flex;
+  align-items: center;
+justify-content: center;
+color: var(--first-color);
 }
 
 
@@ -644,10 +697,8 @@ padding-bottom: 0%; }
     font-size: 12vh;
   }
   .home_section{
-    margin-bottom: 500px;
-  }
-  .about_section{
-  }
+height: 100vh;  }
+  
   .about_section{
     height: 50vh;
   }
@@ -670,6 +721,7 @@ padding-bottom: 0%; }
   }
   .home_section{
     height: 90vh;
+    margin-bottom: 0%;
   }
   .about_section{
     height: 50vh;
@@ -872,6 +924,9 @@ padding-bottom: 100%; }
   }
   .name-text{
     font-size: 6vh;
+  }
+  .home_section{
+    margin-bottom: 8.5vh;
   }
 
 }
