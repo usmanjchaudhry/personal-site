@@ -750,6 +750,26 @@ padding-bottom: 0%; }
   }
   
 }
+@media screen and (max-width: 428px) {
+  .subtitle-text{
+    font-size: 5.6vh;
+    color: grey;
+  }
+  .name-text{
+    font-size: 7vh;
+  }
+  .icon-container i {
+    font-size: 2rem;
+    margin: 5% 1rem;
+  }
+  .home_section{
+    height: 80vh;
+  }
+  .about_section{
+    margin-bottom: 42vh;
+  }
+  
+}
 @media screen and (max-width: 420px) {
   .subtitle-text{
     font-size: 5vh;
