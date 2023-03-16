@@ -537,7 +537,7 @@ color: var(--first-color);
   
   .profile.profile--expanded {
 
-      height: 70vh;
+      height: 60vh;
       animation: expand 0.5s ease;
   }
   .profile__banner {
@@ -603,7 +603,7 @@ color: var(--first-color);
           opacity: 1;
          /* animation: reveal 0.5s ease;*/
           margin-left: 2.5%;
-          height: 70vh;
+          height: 60vh;
       }
       .profile__data > * > * {
           display: flex;
@@ -643,7 +643,7 @@ color: var(--first-color);
       height: 180px;
   }
   100% {
-      height: 70vh;
+      height: 60vh;
   }
 }
 @keyframes unexpand {
@@ -656,9 +656,14 @@ color: var(--first-color);
 }
 .bullet-point{
   text-align: left;
+  margin-bottom: 15px;
+
 }
 
-
+.software-used{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
 
 /*--------------------Skills---------------------------------------*/
 .skills-section{
@@ -752,6 +757,25 @@ height: 100vh;  }
     font-size: 2vh;
     text-align: left;
   }
+  .about-img{
+    height: 35vh;
+  }
+  .profile.profile--expanded {
+    height: 33vh;
+    animation: expand 0.5s ease;
+}
+
+@keyframes expand {
+  0% {
+      height: 180px;
+  }
+  100% {
+      height: 33vh;
+  }
+}
+.experience_section{
+  height: 50vh;
+}
   
 
 }
@@ -770,12 +794,30 @@ height: 100vh;  }
   .about_section{
     height: 50vh;
   }
+.about-img{
+  height: 40vh;
+}
   
  
   .about-text{
     font-size: 2.1vh;
     text-align: center;
   }
+  .profile.profile--expanded {
+    height: 40vh;
+    animation: expand 0.5s ease;
+}
+@keyframes expand {
+  0% {
+      height: 180px;
+  }
+  100% {
+      height: 40vh;
+  }
+}
+.experience_section{
+  height: 55vh;
+}
   
 
 }
@@ -851,6 +893,24 @@ height: 100vh;  }
   .card {
     flex-direction: column;
 }
+.experience__section{
+  height: 63vh;
+}
+
+
+.profile.profile--expanded {
+    height: 42vh;
+    animation: expand 0.5s ease;
+}
+
+@keyframes expand {
+  0% {
+      height: 180px;
+  }
+  100% {
+      height: 42vh;
+  }
+}
 }
 @media screen and (max-width: 576px) {
   .subtitle-text{
@@ -891,7 +951,19 @@ height: 100vh;  }
   .experience_section{
     height: 95vh;
   }
-  
+  .profile.profile--expanded {
+    height: 73vh;
+    animation: expand 0.5s ease;
+}
+
+@keyframes expand {
+  0% {
+      height: 180px;
+  }
+  100% {
+      height: 73vh;
+  }
+}
 }
 @media screen and (max-width: 428px) {
   .subtitle-text{
@@ -927,6 +999,7 @@ height: 100vh;  }
   }
   
 }
+
 @media screen and (max-width: 414px) {
   .subtitle-text{
     font-size: 5vh;
@@ -957,14 +1030,26 @@ height: 100vh;  }
     }
     
     .projects_section{
-      height: 139vh;
+      height: 165vh;
     }
     .card{
       flex-direction: column;
     }
-    .experience__section{
-      padding-top: 0;
+    .experience_section {
+      height: 80vh;
+  }
+    .profile.profile--expanded {
+      height: 67vh;
+      animation: expand 0.5s ease;
+  }
+  @keyframes expand {
+    0% {
+        height: 180px;
     }
+    100% {
+        height: 67vh;
+    }
+}
 }
 @media screen and (max-width: 412px) {
     .subtitle-text{
@@ -987,7 +1072,7 @@ height: 100vh;  }
   
       .about_section{
         margin-top: 0;
-        height:55vh;
+        height:60vh;
       }    
      
       .about-text{
@@ -1005,6 +1090,86 @@ height: 100vh;  }
         padding-top: 0;
       }
     }
+ @media screen and (max-width: 393px) {
+      .subtitle-text{
+        font-size: 5vh;
+        color: grey;
+      }
+      .name-text{
+        font-size: 7vh;
+      }
+      .icon-container i {
+        font-size: 2rem;
+        margin: 5% 1rem;
+      }
+      .home_section{
+        margin-bottom: 0%;
+        padding-bottom: 0px;
+        height: 85vh;
+      }
+    
+    
+        .about_section{
+          margin-top: 0;
+          height:65vh;
+        }    
+       
+        .about-text{
+          font-size: 2vh;
+          text-align: center;
+        }
+        
+        .projects_section{
+          height: 160vh;
+        }
+        .card{
+          flex-direction: column;
+        }
+        .experience__section{
+          padding-top: 0;
+        }
+ }
+@media screen and (max-width: 390px) {
+      .subtitle-text{
+        font-size: 5vh;
+        color: grey;
+      }
+      .name-text{
+        font-size: 7vh;
+      }
+      .icon-container i {
+        font-size: 2rem;
+        margin: 5% 1rem;
+      }
+      .home_section{
+        margin-bottom: 0%;
+        padding-bottom: 0px;
+        height: 85vh;
+      }
+    
+    
+        .about_section{
+          margin-top: 0;
+          height:65vh;
+        }    
+       
+        .about-text{
+          font-size: 2vh;
+          text-align: center;
+        }
+        
+        .projects_section{
+          height: 160vh;
+        }
+        .card{
+          flex-direction: column;
+        }
+        .experience__section{
+          padding-top: 0;
+        }
+ }
+  
+
 @media screen and (max-width: 375px) {
   .subtitle-text{
     font-size: 5vh;
@@ -1046,8 +1211,92 @@ padding-bottom: 100%; }
     flex-direction: column;
   }
   .projects_section{
-height: 171vh;  }
+height: 201vh;  }
+.profile.profile--expanded {
+  height: 90vh;
+  animation: expand 0.5s ease;
 }
+.experience_section{
+  height: 105vh;
+}
+.profile--expanded > .profile__data {
+  opacity: 1;
+ /* animation: reveal 0.5s ease;*/
+  margin-left: 2.5%;
+  height: 80vh;
+}
+@keyframes expand {
+  0% {
+      height: 180px;
+  }
+  100% {
+      height: 90vh;
+  }
+}
+}
+@media screen and (max-width: 360px) {
+  .subtitle-text{
+    font-size: 5vh;
+    color: grey;
+  }
+  .name-text{
+    font-size: 7vh;
+  }
+  .icon-container i {
+    font-size: 2rem;
+    margin: 5% 1rem;
+  }
+  .home_section{
+    margin-bottom: 0%;
+    height: 80vh;
+    padding-bottom: 1000px;
+  }
+  
+  .about_section{
+    height:70vh;
+    margin-top: 10%;
+padding-top: 50px; 
+padding-bottom: 100%; }
+  
+ 
+  .about-text{
+    font-size: 2.3vh;
+    text-align: center;
+  }
+  .home_section{
+    margin-bottom: 30%;
+    padding-bottom: 0px;
+    height: 73vh;
+  }
+
+  .card{
+    flex-direction: column;
+  }
+  .projects_section{
+height: 185vh;  }
+.profile.profile--expanded {
+  height: 90vh;
+  animation: expand 0.5s ease;
+}
+.experience_section{
+  height: 105vh;
+}
+.profile--expanded > .profile__data {
+  opacity: 1;
+ /* animation: reveal 0.5s ease;*/
+  margin-left: 2.5%;
+  height: 80vh;
+}
+@keyframes expand {
+  0% {
+      height: 180px;
+  }
+  100% {
+      height: 90vh;
+  }
+}
+}
+
 @media screen and (max-width: 280px) {
   .subtitle-text{
     font-size: 4.5vh;
@@ -1067,6 +1316,22 @@ height: 171vh;  }
   .projects_section{
     height: 220vh;
   }
+  .experience_section{
+    height: 150vh;
+  }
+  .profile.profile--expanded {
+    height: 125vh;
+    animation: expand 0.5s ease;
+}
+
+@keyframes expand {
+  0% {
+      height: 180px;
+  }
+  100% {
+      height: 125vh;
+  }
+}
 
 }
 
