@@ -965,7 +965,7 @@ height: 100vh;  }
     .experience__section{
       padding-top: 0;
     }
-  }
+}
 @media screen and (max-width: 412px) {
     .subtitle-text{
       font-size: 5vh;
@@ -1048,7 +1048,6 @@ padding-bottom: 100%; }
   .projects_section{
 height: 171vh;  }
 }
-
 @media screen and (max-width: 280px) {
   .subtitle-text{
     font-size: 4.5vh;
