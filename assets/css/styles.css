@@ -704,9 +704,16 @@ color: var(--first-color);
 .card__text-skill {
   font-size: 1.5rem;
 }
+.skill-header{
+  margin-bottom: 1rem;
+}
+.skill-list{
+  box-sizing: unset;
+}
+.skill-point{
+}
 .card__title-skill {
   font-size: 2rem;
-  margin-bottom: 1rem;
 }
 
 
@@ -930,6 +937,9 @@ height: 100vh;  }
       height: 42vh;
   }
 }
+.profile{
+  height: 130px;
+}
 }
 @media screen and (max-width: 576px) {
   .subtitle-text{
@@ -1068,6 +1078,10 @@ height: 100vh;  }
     100% {
         height: 67vh;
     }
+    
+}
+.profile{
+  height: 90px;
 }
 }
 @media screen and (max-width: 412px) {
@@ -1243,6 +1257,9 @@ height: 201vh;  }
  /* animation: reveal 0.5s ease;*/
   margin-left: 2.5%;
   height: 80vh;
+}
+.profile{
+  height: 120px;
 }
 @keyframes expand {
   0% {
