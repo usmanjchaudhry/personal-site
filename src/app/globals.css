@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply antialiased max-w-2xl mb-40 flex flex-col mx-4 mt-8;
+    /* 16px padding on the left */
+    /* 16px padding on the right */
+}
+
+
+
+@media (min-width: 1024px) {
+    body {
+        @apply max-w-2xl mx-auto;
+        /* Adjust max-width and centering on larger screens */
+        padding-left: 0;
+        /* Remove padding on larger screens */
+        padding-right: 0;
+        /* Remove padding on larger screens */
+    }
+}
